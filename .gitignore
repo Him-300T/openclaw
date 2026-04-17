@@ -1,0 +1,20 @@
+# Exclude sensitive files
+*.key
+*.pem
+*.secret
+token.txt
+password.txt
+
+# Exclude local configuration
+TOOLS.md
+.openclaw/
+state/
+
+# Temporary files
+*.tmp
+*.log
+*.cache
+
+# System files
+.DS_Store
+Thumbs.db
